@@ -9,8 +9,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ItsGame"></activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Situation11"
+            android:label="Situation11" >
+        </activity>
+        <activity
+            android:name=".Situation10"
+            android:label="Situation10" />
+        <activity
+            android:name=".Situation9"
+            android:label="Situation9" />
+        <activity
+            android:name=".Situation8"
+            android:label="Situation8" />
+        <activity
+            android:name=".Situation7"
+            android:label="Situation7" />
+        <activity
+            android:name=".Situation6"
+            android:label="Situation6" />
+        <activity
+            android:name=".Situation5"
+            android:label="Situation5" />
+        <activity
+            android:name=".Situation4"
+            android:label="Situation4" />
+        <activity
+            android:name=".Situation3"
+            android:label="Situation3" />
+        <activity
+            android:name=".End"
+            android:label="End" />
+        <activity
+            android:name=".Situation2"
+            android:label="Situation2" />
+        <activity
+            android:name=".Situation1"
+            android:label="Situation1" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

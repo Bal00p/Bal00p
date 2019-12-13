@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void onClick(View view){
-        Intent i = new Intent(MainActivity.this, ItsGame.class);
+    public void naClick(View view){
+        Intent i = new Intent(MainActivity.this, Situation1.class);
         startActivity(i);
     }
 }
